@@ -12,14 +12,16 @@ PennKey (e.g., taliem):
 ## What are the worst case (Big O) and best case (Big Ω) times for snippets C and D?
 
 
-## When evaluating with VisualVM, does one of the snippets run faster than the other? In what situations? Why do you think this is the case?
+## When measuring actual runtime, does one of the snippets run faster than the other? In what situations? Why do you think this is the case?
+
+## What else do you notice about the reported runtime? Is it 100% consistent every time you run it?
 
 
 # Part 3:
 ## Before you make any changes, explain whether you think a LinkedList or an ArrayList makes more sense in this instance. Which do you think will be faster? Why?
 
 
-## When evaluating with VisualVM, is the LinkedList version Suho wrote, or your ArrayList version faster? Does this change when the list size is small versus when it is very large?
+## When measuring actual runtime, is the LinkedList version Suho wrote, or your ArrayList version faster? Does this change when the list size is small versus when it is very large?
 
 
 ## If you ignore queue creation times, does that affect which ticket processor version is faster?
@@ -46,3 +48,4 @@ Your report should answer the following questions:
 * Which of the two algorithms is more efficient in time and space (in terms of Big O)
     * What about in actual runtime and space (using the profiler)
 * Which implementation do you suggest should be used? Are there certain situations that might call for the other approach?
+

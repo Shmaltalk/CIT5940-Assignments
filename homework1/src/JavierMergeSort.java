@@ -1,9 +1,23 @@
-package homework1;
+package homework1.src;
 
 import java.util.LinkedList;
+import java.util.Random;
 
 
 public class JavierMergeSort {
+
+    public static void main(String[] args) {
+
+        int[] input = new int[1000];
+        Random rand = new Random();
+
+        for (int i = 0; i < 1000; i++) {
+            input[i] = rand.nextInt(5000);
+        }
+
+        mergeSort(input);
+
+    }
 
 
     public static int[] mergeSort(int[] input) {

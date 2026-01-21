@@ -1,4 +1,4 @@
-package homework1;
+package homework1.src;
 
 public class FindFirstInstance {
 
@@ -48,29 +48,33 @@ public class FindFirstInstance {
     // main method for testing purposes. Feel free to modify as you run your tests.
     public static void main(String[] args) {
         
+        
         // uncomment one of the grids below to test the methods
-        int[][] grid = getGridOne();
+        // int[][] grid = getGridOne();
         // int[][] grid = getGridTwo();
         
         int target = 5;
         
-        // uncomment one of the methods below to test it
+        long start = System.nanoTime(); // start testing runtime
 
-        int[] result1 = findFirstInstanceOne(grid, target);
-        System.out.println("Method One: (" + result1[0] + ", " + result1[1] + ")");
-        
-        // int[] result2 = findFirstInstanceTwo(grid, target);
-        // System.out.println("Method Two: (" + result2[0] + ", " + result2[1] + ")");
+        // uncomment one of the methods below to test it
+        // findFirstInstanceOne(grid, target);
+        // findFirstInstanceTwo(grid, target);
+
+        long end = System.nanoTime(); // end testing runtime
+
+        System.out.println("Run time was " + (end - start) / 1000000.0 + " milliseconds." ); // print runtime
+
     }
 
     public static int[][] getGridOne() {
-        int[][] grid = new int[1000][1000];
+        int[][] grid = new int[4000][4000];
         grid[0][0] = 5;
         return grid;
     }
 
     public static int[][] getGridTwo() {
-        int[][] grid = new int[1000][1000];
+        int[][] grid = new int[4000][4000];
         grid[999][999] = 5;
         return grid;
     }
