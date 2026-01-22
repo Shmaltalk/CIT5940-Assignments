@@ -13,8 +13,9 @@ public class TicketProcessor {
 
         LinkedList<String> ticketQueue = new LinkedList<>();
 
-        // change to createLongQueue to test performance with a longer queue
-        createShortQueue(ticketQueue);
+        // Uncomment the queue length you want to test with
+        // createShortQueue(ticketQueue);
+        // createLongQueue(ticketQueue);
 
         
         while (!ticketQueue.isEmpty()) {
@@ -30,7 +31,7 @@ public class TicketProcessor {
 
     public static void createShortQueue(List<String> queue) {
         // feel free to change the number of tickets here to test different queue sizes
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 50; i++) {
             queue.add("Ticket #" + i);
         }
     }

@@ -40,12 +40,13 @@ Your report should answer the following questions:
 
 
 # Part 4
-## What is the Big O and Big Ω time for Javier's algorithm? What is the Big O and Big Ω for space use?
+## What are the Big O and Big Ω times for Javier's algorithm? What are the Big O and Big Ω for space use?
+
 
 
 ## Write a paragraph or two in the style of a technical report (think about – how would I write this professionally if I needed to explain my findings to my manager?). 
 Your report should answer the following questions:
-* Which of the two algorithms is more efficient in time and space (in terms of Big O)
-    * What about in actual runtime
+* Which of the two algorithms (yours versus Javier's) is more efficient in time and space (in terms of Big O)
+    * What about in actual runtime?
 * Which implementation do you suggest should be used? Are there certain situations that might call for the other approach?
 
