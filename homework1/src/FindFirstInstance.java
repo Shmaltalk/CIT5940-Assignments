@@ -75,7 +75,7 @@ public class FindFirstInstance {
 
     public static int[][] getGridTwo() {
         int[][] grid = new int[4000][4000];
-        grid[999][999] = 5;
+        grid[3999][3999] = 5;
         return grid;
     }
 
